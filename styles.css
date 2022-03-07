@@ -51,9 +51,12 @@ p {
 #mainHeading {
     color: red;
     /* color:rgb(187, 105, 11); */
+    background-color:rgb(252, 219, 150);
     font-size: 45px;
     text-align: center;
-    text-decoration: underline;
+    border-width: 5px;
+    border-style: double;
+    border-color:rgb(187, 105, 11);
 }
 
 .headingTwo {
