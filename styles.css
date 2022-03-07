@@ -49,8 +49,8 @@ p {
 }
 
 #mainHeading {
-    /* color: red; */
-    color:rgb(187, 105, 11);
+    color: red;
+    /* color:rgb(187, 105, 11); */
     font-size: 45px;
     text-align: center;
     text-decoration: underline;
@@ -65,5 +65,11 @@ p {
     text-align: center;
 }
 
+#testP {
+ text-align: center;
+}
 
+.funParagraph{
+ color: green
+}
 
