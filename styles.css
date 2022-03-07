@@ -1,1 +1,78 @@
 /* Write your CSS here! */
+
+html {
+    display: block;
+    margin-left: 194px;
+    background-color: rgb(252, 219, 150);
+    font-family: sans-serif;
+}
+
+body {
+    display: block;
+    padding: 20px;
+    margin: 8px;
+    background-color: white;
+    width: 100%;
+    max-width: 1100px;
+    border-width: 8px;
+    border-style: ridge;
+    border-color:rgb(187, 105, 11);
+}
+
+p {
+    padding-bottom: 25px;
+    padding-right: 25px;
+    font-size: 18px;
+}
+
+.centerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+#multImages {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: middle;
+    max-width: 100%;
+  }
+
+#centerNav{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 0.9fr 0.9fr 0.9fr 0.9fr 0.9fr;
+    margin-left: 60px;
+}
+
+#mainHeading {
+    color: red;
+    /* color:rgb(187, 105, 11); */
+    background-color:rgb(252, 219, 150);
+    font-size: 45px;
+    text-align: center;
+    border-width: 5px;
+    border-style: double;
+    border-color:rgb(187, 105, 11);
+}
+
+.headingTwo {
+    font-size: 30px;
+    background-color: pink;
+    color: rgb(187, 105, 11);
+    margin-right: -20px;
+    margin-left: -60px;
+    text-align: center;
+}
+
+#testP {
+ text-align: center;
+}
+
+.funParagraph{
+ color: green
+}
+
